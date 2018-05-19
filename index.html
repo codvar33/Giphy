@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Magic Animals</title>
+
+	<!-- jQuery -->
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+
+	<!-- Bootstrap -->
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  	<link rel="stylesheet" type="text/css" href="assets/style.css">
+
+</head>
+<body>
+	<div class="container">
+
+        <div class="jumbotron">
+            <div class="row title">
+                <h1 class="pull-left">Animal GIF</h1>
+ 			</div>
+			
+  		    <div class="row">	
+				<div id="animal-buttons">
+
+				</div>	
+					   
+			</div>
+			
+        </div>
+
+
+		
+		<div class="row">
+
+			<div class="col-md-8 image-section">
+				<h4>GIF Magic Below</h4>
+				<div class="text-center" id="animal-images">Click on an animal button above to display the desired animal</div><hr>
+			</div>
+
+			<div class="col-md-3 col-md-offset-1 text-center search-box">
+				<h5>Add an Animal Button</h5>
+				<input type="text" id="new-animal"><br>
+				<button type="button" id="animal-submit" class="btn btn-primary submit-btn">Submit</button>
+			</div>		
+		</div>
+	</div>
+	<script src="assets/buttons.js"></script>
+</body>
+</html>
